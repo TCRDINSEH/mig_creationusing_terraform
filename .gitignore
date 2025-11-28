@@ -1,0 +1,40 @@
+.terraform  
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terragrunt-cache/
+.idea/
+.vscode/    
+*.iml
+.DS_Store
+*.log
+.terraformrc
+.terragrunt.hcl
+.terragrunt-debug.log
+.terragrunt-cache/
+# Local environment variables file
+.env.local.tfvars
+# Sensitive variable files
+*.auto.tfvars
+*.auto.tfvars.json
+# Backup files
+*~
+*.bak
+# Generated files
+generated/
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
